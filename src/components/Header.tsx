@@ -10,26 +10,31 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-6">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-orange-500 rounded flex items-center justify-center">
-              <span className="text-white font-bold text-lg">T</span>
-            </div>
-            <div className="flex items-baseline space-x-1">
-              <span className="text-white font-semibold text-xl">Trivo</span>
-              <span className="text-gray-400 text-sm">UNIVERSITY</span>
+          <div className="flex items-center space-x-3">
+            <img 
+              src="/images/logo.png" 
+              alt="Trivo University Logo" 
+              className="w-10 h-10"
+            />
+            <div className="flex items-baseline space-x-2">
+              <span className="text-white font-bold text-2xl">Trivo</span>
+              <span className="text-gray-300 font-medium text-2xl">UNIVERSITY</span>
             </div>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-white hover:text-orange-500 transition-colors">
+            <a href="#" className="text-white hover:text-orange-500 transition-colors text-lg">
               Cursos
             </a>
-            <a href="#" className="text-white hover:text-orange-500 transition-colors">
+            <a href="#" className="text-white hover:text-orange-500 transition-colors text-lg">
               Eventos
             </a>
-            <a href="#" className="text-white hover:text-orange-500 transition-colors">
-              Nosotros
+            <a href="#" className="text-white hover:text-orange-500 transition-colors text-lg">
+              Embajadores
+            </a>
+            <a href="#" className="text-white hover:text-orange-500 transition-colors text-lg">
+              Login
             </a>
           </nav>
 
@@ -66,12 +71,17 @@ export default function Header() {
                 Eventos
               </a>
               <a href="#" className="text-white hover:text-orange-500 transition-colors">
-                Nosotros
+                Embajadores
+              </a>
+              <a href="#" className="text-white hover:text-orange-500 transition-colors">
+                Login
               </a>
             </nav>
           </div>
         )}
       </div>
+      {/* Subtle separator line */}
+      <div className="border-b border-gray-700"></div>
     </header>
   );
 }
