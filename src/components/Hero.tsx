@@ -1,6 +1,8 @@
+'use client';
+
 export default function Hero() {
   return (
-    <section className="bg-black text-white py-16 px-4">
+    <section className="text-black py-16 px-4" style={{ backgroundColor: '#FCF8ED' }}>
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Text and CTA */}
@@ -15,20 +17,20 @@ export default function Hero() {
             </div>
             
             {/* Titles */}
-            <h1 className="text-6xl md:text-7xl font-bold text-white mb-4 leading-tight">
+            <h1 className="text-6xl md:text-7xl font-bold mb-4 leading-tight" style={{ color: '#C95100' }}>
               EMBAJADORES
             </h1>
-            <h2 className="text-6xl md:text-7xl font-bold text-white mb-8 leading-tight">
+            <h2 className="text-6xl md:text-7xl font-bold mb-8 leading-tight" style={{ color: '#C95100' }}>
               TRIVO
             </h2>
             
             {/* Description */}
-            <p className="text-xl text-gray-300 mb-10 leading-relaxed max-w-lg">
+            <p className="text-xl text-black mb-10 leading-relaxed max-w-lg">
               Convertí tus entrenamientos en aulas vivas y forma a la nueva generación de líderes deportivos.
             </p>
             
             {/* CTA Button */}
-            <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-4 px-8 rounded-lg text-lg transition-colors">
+            <button className="text-white font-semibold py-4 px-8 rounded-lg text-lg transition-colors hover:opacity-90" style={{ backgroundColor: '#C95100' }}>
               Unirme como Embajador
             </button>
           </div>
