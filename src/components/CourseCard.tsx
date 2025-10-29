@@ -11,7 +11,7 @@ interface CourseCardProps {
 export default function CourseCard({ title, description, level, imageSrc, imageAlt }: CourseCardProps) {
   return (
     <div className="bg-neutral-900 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-      {/* Image */}
+
       <div className="relative h-48 w-full">
         <Image
           src={imageSrc}
@@ -21,12 +21,12 @@ export default function CourseCard({ title, description, level, imageSrc, imageA
         />
       </div>
       
-      {/* Content */}
+     
       <div className="p-6">
         <h3 className="text-xl font-bold text-white mb-2">{title}</h3>
         <p className="text-gray-300 mb-4">{description}</p>
         
-        {/* Level Tag */}
+
         <div className="inline-block">
           <span className="bg-neutral-800 text-white px-3 py-1 rounded-md text-sm">
             {level}

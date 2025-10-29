@@ -80,8 +80,7 @@ export default function Header() {
           </div>
         )}
       </div>
-      {/* Subtle separator line */}
-      <div className="border-b border-gray-700"></div>
+      <div className="border-b border-gray-300"></div>
     </header>
   );
 }

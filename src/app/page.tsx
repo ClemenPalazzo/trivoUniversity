@@ -1,13 +1,15 @@
 import Header from '@/components/Header';
-import Hero from '@/components/Hero';
-import CoursesSection from '@/components/CoursesSection';
+import LandingHero from '@/components/LandingHero';
+import AmbassadorsSection from '@/components/AmbassadorsSection';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
     <div className="min-h-screen">
       <Header />
-      <Hero />
-      <CoursesSection />
+      <LandingHero />
+      <AmbassadorsSection />
+      <Footer />
     </div>
   );
 }
