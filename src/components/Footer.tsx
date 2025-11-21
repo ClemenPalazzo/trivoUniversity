@@ -2,7 +2,7 @@
 
 export default function Footer() {
   return (
-    <footer className="text-black py-12 px-4" style={{ backgroundColor: '#FCF8ED' }}>
+    <footer className="py-12 px-4" style={{ backgroundColor: '#0a1420', color: '#FCF8ED' }}>
       <div className="max-w-7xl mx-auto">
         {/* Main Footer Content */}
         <div className="grid md:grid-cols-4 gap-8 mb-8">
@@ -15,43 +15,43 @@ export default function Footer() {
                 className="w-8 h-8"
               />
               <div className="flex items-baseline space-x-1">
-                <span className="text-black font-bold text-lg">Trivo</span>
-                <span className="text-gray-600 font-medium text-lg">UNIVERSITY</span>
+                <span className="font-bold text-lg" style={{ color: '#FCF8ED' }}>Trivo</span>
+                <span className="font-medium text-lg" style={{ color: '#E8DCC0' }}>UNIVERSITY</span>
               </div>
             </div>
-            <p className="text-gray-700 text-sm leading-relaxed mb-4">
+            <p className="text-sm leading-relaxed mb-4" style={{ color: '#E8DCC0' }}>
               La primera universidad deportiva donde aprendés a crear contenido, liderar y armar tu propia tribu de running, trekking o ciclismo.
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-bold text-lg mb-4" style={{ color: '#354757' }}>
+            <h3 className="font-bold text-lg mb-4" style={{ color: '#FCF8ED' }}>
               Enlaces Rápidos
             </h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-700 text-sm hover:text-[#C95100] transition-colors">
+                <a href="#" className="text-sm hover:text-[#C95100] transition-colors" style={{ color: '#E8DCC0' }}>
                   Cursos Disponibles
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-700 text-sm hover:text-[#C95100] transition-colors">
+                <a href="#" className="text-sm hover:text-[#C95100] transition-colors" style={{ color: '#E8DCC0' }}>
                   Eventos Próximos
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-700 text-sm hover:text-[#C95100] transition-colors">
+                <a href="#" className="text-sm hover:text-[#C95100] transition-colors" style={{ color: '#E8DCC0' }}>
                   Embajadores
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-700 text-sm hover:text-[#C95100] transition-colors">
+                <a href="#" className="text-sm hover:text-[#C95100] transition-colors" style={{ color: '#E8DCC0' }}>
                   Testimonios
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-700 text-sm hover:text-[#C95100] transition-colors">
+                <a href="#" className="text-sm hover:text-[#C95100] transition-colors" style={{ color: '#E8DCC0' }}>
                   Preguntas Frecuentes
                 </a>
               </li>
@@ -60,10 +60,10 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h3 className="font-bold text-lg mb-4" style={{ color: '#354757' }}>
+            <h3 className="font-bold text-lg mb-4" style={{ color: '#FCF8ED' }}>
               Contacto
             </h3>
-            <ul className="space-y-3 text-sm text-gray-700">
+            <ul className="space-y-3 text-sm" style={{ color: '#E8DCC0' }}>
               <li className="flex items-start">
                 <svg className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" style={{ color: '#C95100' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -88,10 +88,10 @@ export default function Footer() {
 
           {/* Social Media */}
           <div>
-            <h3 className="font-bold text-lg mb-4" style={{ color: '#354757' }}>
+            <h3 className="font-bold text-lg mb-4" style={{ color: '#FCF8ED' }}>
               Síguenos
             </h3>
-            <p className="text-gray-700 text-sm mb-4">
+            <p className="text-sm mb-4" style={{ color: '#E8DCC0' }}>
               Mantente al día con nuestras últimas noticias y eventos
             </p>
             <div className="flex space-x-4">
@@ -140,10 +140,10 @@ export default function Footer() {
         </div>
 
         {/* Divider */}
-        <div className="border-t border-gray-300 my-8"></div>
+        <div className="border-t my-8" style={{ borderColor: '#1e2a3a' }}></div>
 
         {/* Bottom Section */}
-        <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
+        <div className="flex flex-col md:flex-row justify-between items-center text-sm" style={{ color: '#E8DCC0' }}>
           <div className="mb-4 md:mb-0">
             <p>&copy; {new Date().getFullYear()} Trivo University. Todos los derechos reservados.</p>
           </div>

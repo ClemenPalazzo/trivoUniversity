@@ -2,13 +2,13 @@
 
 export default function AmbassadorsSection() {
   return (
-    <div style={{ backgroundColor: '#FCF8ED' }}>
+    <div style={{ backgroundColor: '#0a1420' }}>
       {/* Benefits Section */}
       <section className="py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
             {/* Card 1: El aula es la calle */}
-            <div className="bg-white p-8 text-center shadow-lg border border-gray-200 rounded-[30px]">
+            <div className="p-8 text-center shadow-lg rounded-lg" style={{ backgroundColor: '#1a2332', border: '1px solid #1e2a3a' }}>
               <div className="w-20 h-20 mx-auto mb-6 flex items-center justify-center">
                 <svg className="w-16 h-16" viewBox="0 0 24 24" fill="none" style={{ color: '#C95100' }}>
                   <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -16,16 +16,16 @@ export default function AmbassadorsSection() {
                   <path d="M2 12L12 17L22 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-4" style={{ color: '#354757' }}>
+              <h3 className="text-xl font-bold mb-4" style={{ color: '#FCF8ED' }}>
                 El aula es la calle
               </h3>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="leading-relaxed" style={{ color: '#F4E8D4' }}>
                 Tus entrenamientos son prácticas en vivo para nuevos profes.
               </p>
             </div>
 
             {/* Card 2: Mentores de la Universidad */}
-            <div className="bg-white p-8 text-center shadow-lg border border-gray-200 rounded-[30px]">
+            <div className="p-8 text-center shadow-lg rounded-lg" style={{ backgroundColor: '#1a2332', border: '1px solid #1e2a3a' }}>
               <div className="w-20 h-20 mx-auto mb-6 flex items-center justify-center">
                 <svg className="w-16 h-16" viewBox="0 0 24 24" fill="none" style={{ color: '#C95100' }}>
                   <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -34,25 +34,25 @@ export default function AmbassadorsSection() {
                   <path d="M16 3.13C16.8604 3.35031 17.623 3.85071 18.1676 4.55232C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89318 18.7122 8.75608 18.1676 9.45769C17.623 10.1593 16.8604 10.6597 16 10.88" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-4" style={{ color: '#354757' }}>
+              <h3 className="text-xl font-bold mb-4" style={{ color: '#FCF8ED' }}>
                 Mentores de la Universidad
               </h3>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="leading-relaxed" style={{ color: '#F4E8D4' }}>
                 Ayuda a formar líderes con tu experiencia real.
               </p>
             </div>
 
             {/* Card 3: Círculo exclusivo */}
-            <div className="bg-white p-8 text-center shadow-lg border border-gray-200 rounded-[30px]">
+            <div className="p-8 text-center shadow-lg rounded-lg" style={{ backgroundColor: '#1a2332', border: '1px solid #1e2a3a' }}>
               <div className="w-20 h-20 mx-auto mb-6 flex items-center justify-center">
                 <svg className="w-16 h-16" viewBox="0 0 24 24" fill="none" style={{ color: '#C95100' }}>
                   <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="currentColor"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-4" style={{ color: '#354757' }}>
+              <h3 className="text-xl font-bold mb-4" style={{ color: '#FCF8ED' }}>
                 Círculo exclusivo
               </h3>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="leading-relaxed" style={{ color: '#F4E8D4' }}>
                 Accede a un rol único dentro de Trivo University.
               </p>
             </div>
@@ -63,18 +63,18 @@ export default function AmbassadorsSection() {
       {/* Clubs Embajadores Section */}
       <section className="py-20 px-6">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16" style={{ color: '#354757' }}>
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16" style={{ color: '#FCF8ED' }}>
             Clubs Embajadores
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {/* Club 1: MV Adventure Team */}
-            <div className="bg-white p-6 shadow-lg border border-gray-200 relative rounded-[30px]">
+            <div className="p-6 shadow-lg relative rounded-2xl" style={{ backgroundColor: '#1a2332', border: '1px solid #1e2a3a' }}>
               <div className="mb-4">
                 <div className="text-left mb-4">
-                  <div className="text-4xl font-bold mb-2" style={{ color: '#C95100' }}>MV</div>
-                  <div className="text-sm font-semibold text-gray-600 uppercase tracking-wide">ADVENTURE TEAM</div>
+                  <div className="text-4xl font-bold mb-2" style={{ color: '#FCF8ED' }}>MV</div>
+                  <div className="text-sm font-semibold uppercase tracking-wide" style={{ color: '#F4E8D4' }}>ADVENTURE TEAM</div>
                 </div>
-                <p className="text-gray-700 text-sm leading-relaxed">
+                <p className="text-sm leading-relaxed" style={{ color: '#F4E8D4' }}>
                   Club de trail y aventuras outdoor en Tucumán. Expertos en montaña.
                 </p>
               </div>
@@ -86,13 +86,13 @@ export default function AmbassadorsSection() {
             </div>
 
             {/* Club 2: Ómega Runners */}
-            <div className="bg-white p-6 shadow-lg border border-gray-200 relative rounded-[30px]">
+            <div className="p-6 shadow-lg relative rounded-2xl" style={{ backgroundColor: '#1a2332', border: '1px solid #1e2a3a' }}>
               <div className="mb-4">
                 <div className="text-left mb-4">
-                  <div className="text-3xl font-bold mb-2" style={{ color: '#354757' }}>ÓMEGA</div>
-                  <div className="text-xs font-medium text-gray-600 uppercase tracking-wide">- RUNNERS -</div>
+                  <div className="text-3xl font-bold mb-2" style={{ color: '#FCF8ED' }}>ÓMEGA</div>
+                  <div className="text-xs font-medium uppercase tracking-wide" style={{ color: '#F4E8D4' }}>- RUNNERS -</div>
                 </div>
-                <p className="text-gray-700 text-sm leading-relaxed">
+                <p className="text-sm leading-relaxed" style={{ color: '#F4E8D4' }}>
                   Running team con base en Tucumán, especializados en distancias largas.
                 </p>
               </div>
@@ -104,13 +104,13 @@ export default function AmbassadorsSection() {
             </div>
 
             {/* Club 3: Vibora Bike Team */}
-            <div className="bg-white p-6 shadow-lg border border-gray-200 relative rounded-[30px]">
+            <div className="p-6 shadow-lg relative rounded-2xl" style={{ backgroundColor: '#1a2332', border: '1px solid #1e2a3a' }}>
               <div className="mb-4">
                 <div className="text-left mb-4">
-                  <div className="text-3xl font-bold mb-2" style={{ color: '#C95100' }}>VIBORA</div>
-                  <div className="text-xs font-medium text-gray-600 uppercase tracking-wide">STREETBIKE</div>
+                  <div className="text-3xl font-bold mb-2" style={{ color: '#FCF8ED' }}>VIBORA</div>
+                  <div className="text-xs font-medium uppercase tracking-wide" style={{ color: '#F4E8D4' }}>STREETBIKE</div>
                 </div>
-                <p className="text-gray-700 text-sm leading-relaxed">
+                <p className="text-sm leading-relaxed" style={{ color: '#F4E8D4' }}>
                   Club de ciclismo con entrenamientos grupales y rutas desafiantes.
                 </p>
               </div>

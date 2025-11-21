@@ -6,8 +6,8 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="text-black" style={{ backgroundColor: '#FCF8ED' }}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header className="w-full bg-[#0a1420]" style={{ backgroundColor: '#0a1420', color: '#FCF8ED' }}>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full bg-[#0a1420]" style={{ backgroundColor: '#0a1420' }}>
         <div className="flex justify-between items-center py-6">
           {/* Logo */}
           <div className="flex items-center space-x-3">
@@ -17,30 +17,31 @@ export default function Header() {
               className="w-10 h-10"
             />
             <div className="flex items-baseline space-x-2">
-              <span className="text-black font-bold text-2xl">Trivo</span>
-              <span className="text-gray-600 font-medium text-2xl">UNIVERSITY</span>
+              <span className="font-bold text-2xl" style={{ color: '#FCF8ED' }}>Trivo</span>
+              <span className="font-medium text-2xl" style={{ color: '#E8DCC0' }}>UNIVERSITY</span>
             </div>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-black transition-colors text-lg hover:text-[#C95100]">
+            <a href="#" className="transition-colors text-lg hover:text-[#C95100]" style={{ color: '#FCF8ED' }}>
               Cursos
             </a>
-            <a href="#" className="text-black transition-colors text-lg hover:text-[#C95100]">
+            <a href="#" className="transition-colors text-lg hover:text-[#C95100]" style={{ color: '#F4E8D4' }}>
               Eventos
             </a>
-            <a href="#" className="text-black transition-colors text-lg hover:text-[#C95100]">
+            <a href="#" className="transition-colors text-lg hover:text-[#C95100]" style={{ color: '#FCF8ED' }}>
               Embajadores
             </a>
-            <a href="#" className="text-black transition-colors text-lg hover:text-[#C95100]">
+            <a href="#" className="transition-colors text-lg hover:text-[#C95100]" style={{ color: '#F4E8D4' }}>
               Login
             </a>
           </nav>
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden text-black"
+            className="md:hidden transition-colors"
+            style={{ color: '#FCF8ED' }}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -62,25 +63,25 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden pb-4">
-            <nav className="flex flex-col space-y-4">
-              <a href="#" className="text-black transition-colors hover:text-[#C95100]">
+          <div className="md:hidden pb-4 bg-[#1a2332]" style={{ backgroundColor: '#1a2332' }}>
+            <nav className="flex flex-col space-y-4 px-4 pt-4">
+              <a href="#" className="transition-colors hover:text-[#C95100]" style={{ color: '#FCF8ED' }}>
                 Cursos
               </a>
-              <a href="#" className="text-black transition-colors hover:text-[#C95100]">
+              <a href="#" className="transition-colors hover:text-[#C95100]" style={{ color: '#F4E8D4' }}>
                 Eventos
               </a>
-              <a href="#" className="text-black transition-colors hover:text-[#C95100]">
+              <a href="#" className="transition-colors hover:text-[#C95100]" style={{ color: '#FCF8ED' }}>
                 Embajadores
               </a>
-              <a href="#" className="text-black transition-colors hover:text-[#C95100]">
+              <a href="#" className="transition-colors hover:text-[#C95100]" style={{ color: '#F4E8D4' }}>
                 Login
               </a>
             </nav>
           </div>
         )}
       </div>
-      <div className="border-b border-gray-300"></div>
+      <div style={{ borderBottom: '1px solid #1e2a3a' }}></div>
     </header>
   );
 }
