@@ -4,7 +4,7 @@ export default function AmbassadorsSection() {
   return (
     <div style={{ backgroundColor: '#0a1420' }}>
       {/* Benefits Section */}
-      <section className="py-20 px-6">
+      <section id="embajadores" className="py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
             {/* Card 1: El aula es la calle */}

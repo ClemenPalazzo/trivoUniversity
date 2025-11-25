@@ -14,12 +14,13 @@ export default function LandingHero() {
               <p className="text-xl mb-10 leading-relaxed max-w-lg" style={{ color: '#F4E8D4' }}>
                 La primera universidad deportiva donde aprendés a crear contenido, liderar y armar tu propia tribu de running, trekking o ciclismo.
               </p>
-              <button 
-                className="text-white font-semibold py-4 px-8 text-lg transition-base hover:opacity-90 hover:-translate-y-0.5 rounded-[50px]" 
+              <a 
+                href="https://trivo-university-mvp.vercel.app/login"
+                className="inline-block text-white font-semibold py-4 px-8 text-lg transition-base hover:opacity-90 hover:-translate-y-0.5 rounded-[50px]" 
                 style={{ backgroundColor: '#C95100' }}
               >
                 Empezar ahora
-              </button>
+              </a>
             </div>
             <div className="flex justify-center lg:justify-end">
               <div className="relative w-full max-w-lg h-96 animate-fade-in" style={{ animationDelay: '120ms' }}>
@@ -35,14 +36,14 @@ export default function LandingHero() {
       </section>
 
       {/* Courses Section */}
-      <section className="pt-6 pb-20 px-6">
+      <section id="cursos" className="pt-6 pb-20 px-6">
         <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-left mb-20 max-w-4xl" style={{ color: '#FCF8ED' }}>
               Formate con programas prácticos diseñados para crear tu grupo deportivo
             </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {/* Trail Running Card */}
-            <div className="p-4 text-center shadow-lg rounded-[30px] animate-fade-up transition-base hover:-translate-y-1 hover:shadow-xl" style={{ backgroundColor: '#F4E8D4', border: '1px solid #E8DCC0', animationDelay: '80ms' }}>
+            <div className="p-4 text-center shadow-lg rounded-lg animate-fade-up transition-base hover:-translate-y-1 hover:shadow-xl" style={{ backgroundColor: '#1a2332', border: '1px solid #1e2a3a', animationDelay: '80ms' }}>
               <div className="w-full h-48 mb-4">
                 <img 
                   src="/images/trail.png" 
@@ -53,14 +54,14 @@ export default function LandingHero() {
               <a 
                 href="#" 
                 className="text-lg font-bold hover:text-[#C95100] transition-colors cursor-pointer inline-block"
-                style={{ color: '#1e2d3a' }}
+                style={{ color: '#FCF8ED' }}
               >
                 Trail Running
               </a>
             </div>
 
             {/* Running Card */}
-            <div className="p-4 text-center shadow-lg rounded-[30px] animate-fade-up transition-base hover:-translate-y-1 hover:shadow-xl" style={{ backgroundColor: '#F4E8D4', border: '1px solid #E8DCC0', animationDelay: '140ms' }}>
+            <div className="p-4 text-center shadow-lg rounded-lg animate-fade-up transition-base hover:-translate-y-1 hover:shadow-xl" style={{ backgroundColor: '#1a2332', border: '1px solid #1e2a3a', animationDelay: '140ms' }}>
               <div className="w-full h-48 mb-4">
                 <img 
                   src="/images/Mujer.png" 
@@ -71,14 +72,14 @@ export default function LandingHero() {
               <a 
                 href="#" 
                 className="text-lg font-bold hover:text-[#C95100] transition-colors cursor-pointer inline-block"
-                style={{ color: '#1e2d3a' }}
+                style={{ color: '#FCF8ED' }}
               >
                 Running
               </a>
             </div>
 
             {/* Ciclismo Card */}
-            <div className="p-4 text-center shadow-lg rounded-[30px] animate-fade-up transition-base hover:-translate-y-1 hover:shadow-xl" style={{ backgroundColor: '#F4E8D4', border: '1px solid #E8DCC0', animationDelay: '200ms' }}>
+            <div className="p-4 text-center shadow-lg rounded-lg animate-fade-up transition-base hover:-translate-y-1 hover:shadow-xl" style={{ backgroundColor: '#1a2332', border: '1px solid #1e2a3a', animationDelay: '200ms' }}>
               <div className="w-full h-48 mb-4">
                 <img 
                   src="/images/Ciclista.png" 
@@ -89,7 +90,7 @@ export default function LandingHero() {
               <a 
                 href="#" 
                 className="text-lg font-bold hover:text-[#C95100] transition-colors cursor-pointer inline-block"
-                style={{ color: '#1e2d3a' }}
+                style={{ color: '#FCF8ED' }}
               >
                 Ciclismo
               </a>
@@ -118,12 +119,6 @@ export default function LandingHero() {
               <p className="text-xl mb-10 leading-relaxed max-w-lg" style={{ color: '#F4E8D4' }}>
                 Convertí tus entrenamientos en aulas vivas y forma a la nueva generación de líderes deportivos.
               </p>
-              <button 
-                className="text-white font-semibold py-4 px-8 text-lg transition-base hover:opacity-90 hover:-translate-y-0.5 rounded-[50px]" 
-                style={{ backgroundColor: '#C95100' }}
-              >
-                Unirme como Embajador
-              </button>
             </div>
           </div>
         </div>

@@ -24,16 +24,13 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#" className="transition-colors text-lg hover:text-[#C95100]" style={{ color: '#FCF8ED' }}>
+            <a href="#cursos" className="transition-colors text-lg hover:text-[#C95100]" style={{ color: '#FCF8ED' }}>
               Cursos
             </a>
-            <a href="#" className="transition-colors text-lg hover:text-[#C95100]" style={{ color: '#F4E8D4' }}>
-              Eventos
-            </a>
-            <a href="#" className="transition-colors text-lg hover:text-[#C95100]" style={{ color: '#FCF8ED' }}>
+            <a href="#embajadores" className="transition-colors text-lg hover:text-[#C95100]" style={{ color: '#FCF8ED' }}>
               Embajadores
             </a>
-            <a href="#" className="transition-colors text-lg hover:text-[#C95100]" style={{ color: '#F4E8D4' }}>
+            <a href="https://trivo-university-mvp.vercel.app/register" className="transition-colors text-lg hover:text-[#C95100]" style={{ color: '#F4E8D4' }}>
               Login
             </a>
           </nav>
@@ -65,16 +62,13 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden pb-4 bg-[#1a2332]" style={{ backgroundColor: '#1a2332' }}>
             <nav className="flex flex-col space-y-4 px-4 pt-4">
-              <a href="#" className="transition-colors hover:text-[#C95100]" style={{ color: '#FCF8ED' }}>
+              <a href="#cursos" className="transition-colors hover:text-[#C95100]" style={{ color: '#FCF8ED' }}>
                 Cursos
               </a>
-              <a href="#" className="transition-colors hover:text-[#C95100]" style={{ color: '#F4E8D4' }}>
-                Eventos
-              </a>
-              <a href="#" className="transition-colors hover:text-[#C95100]" style={{ color: '#FCF8ED' }}>
+              <a href="#embajadores" className="transition-colors hover:text-[#C95100]" style={{ color: '#FCF8ED' }}>
                 Embajadores
               </a>
-              <a href="#" className="transition-colors hover:text-[#C95100]" style={{ color: '#F4E8D4' }}>
+              <a href="https://trivo-university-mvp.vercel.app/register" className="transition-colors hover:text-[#C95100]" style={{ color: '#F4E8D4' }}>
                 Login
               </a>
             </nav>
