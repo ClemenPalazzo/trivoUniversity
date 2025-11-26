@@ -5,6 +5,8 @@ import { useEffect, useRef, useState } from 'react';
 export function useScrollAnimation(options?: { threshold?: number; rootMargin?: string }) {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
+  const threshold = options?.threshold ?? 0.1;
+  const rootMargin = options?.rootMargin ?? '0px';
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -14,8 +16,8 @@ export function useScrollAnimation(options?: { threshold?: number; rootMargin?: 
         }
       },
       { 
-        threshold: options?.threshold || 0.1,
-        rootMargin: options?.rootMargin || '0px'
+        threshold,
+        rootMargin
       }
     );
 
@@ -29,7 +31,7 @@ export function useScrollAnimation(options?: { threshold?: number; rootMargin?: 
         observer.unobserve(currentRef);
       }
     };
-  }, [options?.threshold, options?.rootMargin]);
+  }, [threshold, rootMargin]);
 
   return { ref, isVisible };
 }
