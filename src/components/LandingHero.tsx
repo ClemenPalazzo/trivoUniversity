@@ -348,7 +348,7 @@ export default function LandingHero() {
               
               <div className="border-l-4 pl-6 py-4 rounded-r-lg animate-fade-up" style={{ borderColor: '#C95100', backgroundColor: 'rgba(201, 81, 0, 0.05)', animationDelay: '500ms' }}>
                 <p className="text-lg md:text-xl italic leading-relaxed font-medium" style={{ color: '#C95100' }}>
-                  "No solo entrenamos, formamos líderes. Cada sesión es una oportunidad de enseñar y aprender."
+                  &quot;No solo entrenamos, formamos líderes. Cada sesión es una oportunidad de enseñar y aprender.&quot;
                 </p>
               </div>
             </div>
