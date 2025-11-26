@@ -13,6 +13,7 @@ export default function Footer() {
                 src="/images/logo.png" 
                 alt="Trivo University Logo" 
                 className="w-8 h-8"
+                style={{ border: 'none' }}
               />
               <div className="flex items-baseline space-x-1">
                 <span className="font-bold text-lg" style={{ color: '#FCF8ED' }}>Trivo</span>

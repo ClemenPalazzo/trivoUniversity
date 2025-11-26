@@ -10,7 +10,7 @@ interface CourseCardProps {
 
 export default function CourseCard({ title, description, level, imageSrc, imageAlt }: CourseCardProps) {
   return (
-    <div className="bg-neutral-900 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+    <div className="bg-neutral-900 rounded-lg overflow-hidden">
 
       <div className="relative h-48 w-full">
         <Image
@@ -18,6 +18,7 @@ export default function CourseCard({ title, description, level, imageSrc, imageA
           alt={imageAlt}
           fill
           className="object-cover"
+          style={{ border: 'none' }}
         />
       </div>
       
