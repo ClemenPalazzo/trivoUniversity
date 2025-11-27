@@ -28,13 +28,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <a href="#" className="flex items-center space-x-3 group">
-            <img 
-              src="/images/logo.png" 
-              alt="Trivo University Logo" 
-              className="w-10 h-10 transition-transform duration-300 group-hover:scale-110"
-              style={{ border: 'none' }}
-            />
+          <a href="#" className="flex items-center group">
             <div className="flex items-baseline space-x-2">
               <span className="font-bold text-2xl transition-colors duration-300 group-hover:text-[#C95100]" style={{ color: '#FCF8ED' }}>Trivo</span>
               <span className="font-medium text-2xl" style={{ color: '#E8DCC0' }}>UNIVERSITY</span>
